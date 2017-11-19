@@ -1,0 +1,69 @@
+$text: #FFFFFF
+$bg: #212121
+$acc: #F57C00
+$acc-light: rgba($acc, .75)
+
+body
+  text-align: center
+  font-family: 'Barlow', sans-serif
+  background-color: $bg
+  color: $text
+  display: table
+  position: absolute
+  height: 100%
+  width: 100%
+  .container
+    max-width: 60rem
+    display: table-cell
+    vertical-align: middle
+    margin: auto
+    cursor: default
+    a
+      color: $acc-light
+      text-decoration: none
+      cursor: pointer
+    a:hover
+      color: $acc
+      transition: color 200ms linear
+    p
+      margin: 0
+    h1
+      font-weight: 500
+      font-size: 1em
+      letter-spacing: 4px
+      text-transform: uppercase
+    h3
+      margin-top: 10vh
+      font-weight: 400
+      font-size: 2.5em
+      letter-spacing: 2px
+    .weather-icon
+      margin: 0 auto 1.5em auto
+      display: block
+      width: 10em
+      height: 10em
+      background-size: cover
+      filter: invert(100%)
+      transform: scale(1.75)
+    .deg
+      font-weight: 100
+      font-size: 5em
+    .sign
+      cursor: pointer
+    .de, .fa
+      color: $acc-light
+      transition: color 250ms ease-in
+    .de:hover, .fa:hover
+      color: $acc
+    .des
+      margin-top: 0.25em
+      font-weight: 400
+      font-size: 1em
+      letter-spacing: 4px
+      text-transform: uppercase
+    .imp
+      margin-top: 5em
+      font-weight: 100
+      font-size: 1em
+      line-height: 1.5em
+      letter-spacing: 1.75px
