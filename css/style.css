@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  background-color: #212121;
+  color: #FFFFFF;
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%; }
+  body .container {
+    max-width: 60rem;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    cursor: default; }
+    body .container a {
+      color: rgba(245, 124, 0, 0.75);
+      text-decoration: none;
+      cursor: pointer; }
+    body .container a:hover {
+      color: #F57C00;
+      transition: color 200ms linear; }
+    body .container p {
+      margin: 0; }
+    body .container h1 {
+      font-weight: 500;
+      font-size: 1em;
+      letter-spacing: 4px;
+      text-transform: uppercase; }
+    body .container h3 {
+      margin-top: 10vh;
+      font-weight: 400;
+      font-size: 2.5em;
+      letter-spacing: 2px; }
+    body .container .weather-icon {
+      margin: 0 auto 1.5em auto;
+      display: block;
+      width: 10em;
+      height: 10em;
+      background-size: cover;
+      filter: invert(100%);
+      transform: scale(1.75); }
+    body .container .deg {
+      font-weight: 100;
+      font-size: 5em; }
+    body .container .sign {
+      cursor: pointer; }
+    body .container .de, body .container .fa {
+      color: rgba(245, 124, 0, 0.75);
+      transition: color 250ms ease-in; }
+    body .container .de:hover, body .container .fa:hover {
+      color: #F57C00; }
+    body .container .des {
+      margin-top: 0.25em;
+      font-weight: 400;
+      font-size: 1em;
+      letter-spacing: 4px;
+      text-transform: uppercase; }
+    body .container .imp {
+      margin-top: 5em;
+      font-weight: 100;
+      font-size: 1em;
+      line-height: 1.5em;
+      letter-spacing: 1.75px; }
